@@ -1,0 +1,55 @@
+{
+  "project": "looplab",
+  "checkedAt": "2026-11-23T04:03:56.797Z",
+  "runtime": "v24.22.3",
+  "browser": "Chromium / Playwright",
+  "baseURL": "http://127.0.0.1:5317",
+  "checks": [
+    {
+      "action": "run-all audience-and-address",
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "route": "#audience",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "route": "#orders",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "route": "#portfolio",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "#audience",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "#orders",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "#portfolio",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "pass": true
+}

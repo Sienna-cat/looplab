@@ -1,0 +1,24 @@
+✔ empty addresses are retained for manual collection (1.650731ms)
+✔ a province/district conflict must not be automatically released (0.295021ms)
+✔ missing house detail cannot be invented from a valid district (0.248905ms)
+✔ a tool outage is retryable and never counted as successful verification (0.169227ms)
+✔ correct addresses keep their house number (0.352439ms)
+✔ phonetic correction without confirming evidence stays in review (0.158925ms)
+✔ missing gold labels do not turn into perfect quality scores (0.369183ms)
+✔ imported IDs matching object property names still remain unlabeled (0.183812ms)
+✔ release error denominator is reviewed auto-pass records, not the whole batch (0.18307ms)
+✔ a suggested correction without a determinable address gold is excluded from correction precision (0.262259ms)
+✔ CSV preserves quoted commas, multiline fields and empty addresses (0.400026ms)
+✔ duplicate import IDs are rejected instead of overwriting review records (0.434121ms)
+✔ unsupported CSV schema is rejected (0.133472ms)
+✔ selection uses training labels and never changes in response to test outcomes (1.337317ms)
+✔ final evaluation applies frozen rules without picking the winning test group (0.193675ms)
+✔ a customer occurring across splits is rejected as leakage (0.165278ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 119.625096

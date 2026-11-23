@@ -1,0 +1,30 @@
+dist/
+.DS_Store
+
+# Portable portfolio delivery
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+__pycache__/
+*.pyc
+.venv/
+coverage/
+*.log
+dist/
+
+# Preserve historical verification logs
+!evidence/**/*.log
+
+# Historical tool outputs are local-only
+reference-sources/**/output/
+reference-sources/**/input/
+reference-sources/**/__pycache__/
+reference-sources/**/*.pkl
+reference-sources/**/amap_cache.json
