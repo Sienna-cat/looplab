@@ -1,5 +1,16 @@
 # LoopLab · 营销评测工作台
 
+## 在线 Demo（无需安装）
+
+**[点击直接操作 Looplab →](https://sienna-cat.github.io/looplab/)**
+
+[作品集与四个 Demo 总入口](https://sienna-cat.github.io/drivefollow/portfolio/#demos) · [公开源码](https://github.com/Sienna-cat/looplab)
+
+打开网址即可体验，无需登录、下载代码或启动本地服务。使用合成数据与浏览器规则演示，不调用真实电话、企微或大模型；操作仅在当前浏览器内保存，不会影响其他访客。DriveReach 的 40 个规则场景会在浏览器中实际执行。
+
+更新 `main` 后，GitHub Actions 会运行测试并自动部署。可用 `npm run build:static` 生成 `dist/` 静态站点。
+
+
 可运行的 Web Demo 与作品集说明页。默认地址：http://127.0.0.1:4317 。
 
 ## 快速启动（独立项目版）
